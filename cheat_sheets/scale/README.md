@@ -3,5 +3,5 @@
 ## Sclaing up pod
 
 ```bash
-kubectl scale deploy/my-apache --replicas 2
+kubectl scale deployment my-apache --replicas 2
 ```

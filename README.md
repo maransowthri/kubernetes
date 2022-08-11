@@ -2,11 +2,13 @@
 
 Most used K8s commands
 
-- [kubectl create](./cheat_sheets/kubectl/create/README.md)
-- [kubectl delete](./cheat_sheets/kubectl/delete/README.md)
-- [kubectl get](./cheat_sheets/kubectl/get/README.md)
-- [kubectl logs](./cheat_sheets/kubectl/logs/README.md)
-- [kubectl run](./cheat_sheets/kubectl/run/README.md)
-- [kubectl scale](./cheat_sheets/kubectl/scale/README.md)
+- [kubectl create](./cheat_sheets/create/README.md)
+- [kubectl delete](./cheat_sheets/delete/README.md)
+- [kubectl describe](./cheat_sheets/describe/README.md)
+- [kubectl expose](./cheat_sheets/expose/README.md)
+- [kubectl get](./cheat_sheets/get/README.md)
+- [kubectl logs](./cheat_sheets/logs/README.md)
+- [kubectl run](./cheat_sheets/run/README.md)
+- [kubectl scale](./cheat_sheets/scale/README.md)
 
 More commands and resources are at [https://github.com/bretfisher/udemy-docker-mastery](https://github.com/bretfisher/udemy-docker-mastery)
