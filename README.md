@@ -2,6 +2,8 @@
 
 Most used K8s commands
 
+- [kubectl api-resources](./cheat_sheets/api-resources/README.md)
+- [kubectl apply](./cheat_sheets/apply/README.md)
 - [kubectl create](./cheat_sheets/create/README.md)
 - [kubectl delete](./cheat_sheets/delete/README.md)
 - [kubectl describe](./cheat_sheets/describe/README.md)
