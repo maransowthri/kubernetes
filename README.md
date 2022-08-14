@@ -7,6 +7,7 @@ Most used K8s commands
 - [kubectl create](./cheat_sheets/create/README.md)
 - [kubectl delete](./cheat_sheets/delete/README.md)
 - [kubectl describe](./cheat_sheets/describe/README.md)
+- [kubectl explain](./cheat_sheets/explain/README.md)
 - [kubectl expose](./cheat_sheets/expose/README.md)
 - [kubectl get](./cheat_sheets/get/README.md)
 - [kubectl logs](./cheat_sheets/logs/README.md)

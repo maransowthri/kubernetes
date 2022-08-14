@@ -17,3 +17,9 @@ kubectl apply -f myyaml/
 ```bash
 kubectl apply -f https://maransowthri.dev/pod.yaml
 ```
+
+## Dry run
+
+```bash
+kubectl apply -f app.yaml --dry-run=server
+```
