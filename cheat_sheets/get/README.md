@@ -6,8 +6,8 @@
 kubectl get all
 ```
 
-## List all pods / replicasets / deployments / services and watch it live
+## List all pods / replicasets / deployments / services / nodes and watch it live
 
 ```bash
-kubectl get pods / replicasets / deployments / services -w
+kubectl get nodes / pods / replicasets / deployments / services -w
 ```
