@@ -3,7 +3,7 @@
 ## Listing keys and values available for yaml template for a particular service
 
 ```bash
-kubectl explain service / deployment --recursive
+kubectl explain service / deployment / pod --recursive
 ```
 
 ## Lising keys and values but with also some explanations
