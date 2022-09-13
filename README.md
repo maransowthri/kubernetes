@@ -11,6 +11,7 @@ Most used K8s commands
 - [kubectl explain](./cheat_sheets/explain/README.md)
 - [kubectl expose](./cheat_sheets/expose/README.md)
 - [kubectl get](./cheat_sheets/get/README.md)
+- [kubectl label](./cheat_sheets/label/README.md)
 - [kubectl logs](./cheat_sheets/logs/README.md)
 - [kubectl run](./cheat_sheets/run/README.md)
 - [kubectl scale](./cheat_sheets/scale/README.md)

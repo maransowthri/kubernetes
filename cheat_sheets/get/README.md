@@ -11,3 +11,5 @@ kubectl get all
 ```bash
 kubectl get nodes / pods / replicasets / deployments / services -w
 ```
+
+NOTE: `--show-labels` to include labels in the output
