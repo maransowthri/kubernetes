@@ -20,5 +20,5 @@ NOTE:
 ## Creating deployment in dry run mode and saving the spec in yaml format
 
 ```bash
-kubectl create deployment sample --image nginx --dry-run=client -o yaml
+kubectl create deployment sample --image nginx --dry-run=client -o yaml > pod.yaml
 ```
