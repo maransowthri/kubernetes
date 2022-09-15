@@ -13,6 +13,7 @@ Most used K8s commands
 - [kubectl get](./cheat_sheets/get/README.md)
 - [kubectl label](./cheat_sheets/label/README.md)
 - [kubectl logs](./cheat_sheets/logs/README.md)
+- [kubectl rollout](./cheat_sheets/rollout/README.md)
 - [kubectl run](./cheat_sheets/run/README.md)
 - [kubectl scale](./cheat_sheets/scale/README.md)
 
