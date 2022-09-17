@@ -22,3 +22,9 @@ NOTE:
 ```bash
 kubectl create deployment sample --image nginx --dry-run=client -o yaml > pod.yaml
 ```
+
+## Creating secrets
+
+```bash
+kubectl create secret generic firstsecret --from-literal=dbpass=mypassword
+```
