@@ -27,4 +27,11 @@ kubectl create deployment sample --image nginx --dry-run=client -o yaml > pod.ya
 
 ```bash
 kubectl create secret generic firstsecret --from-literal=dbpass=mypassword
+kubectl create secret generic secondsecret --from-file=./credentials.txt
+```
+
+## Creating configmaps
+
+```bash
+kubectl create configmap dev --from-literal app.mem=2048m
 ```

@@ -6,10 +6,10 @@
 kubectl get all
 ```
 
-## List all pods / replicasets / deployments / services / nodes / secrets and watch it live
+## List all pods / replicasets / deployments / services / nodes / secrets / configmaps and watch it live
 
 ```bash
-kubectl get nodes / pods / replicasets / deployments / services / secrets -w
+kubectl get nodes / pods / replicasets / deployments / services / secrets / configmaps -w
 ```
 
 NOTE: `--show-labels` to include labels in the output
