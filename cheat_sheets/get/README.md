@@ -20,3 +20,9 @@ NOTE: `--show-labels` to include labels in the output
 kubectl get secret firstsecret -o yaml
 echo <encoded_secret> | base64 -d
 ```
+
+## Get pods with IPs
+
+```bash
+kubectl get pods -o wide
+```
