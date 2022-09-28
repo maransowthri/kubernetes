@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: sample-daemonset
+spec:
+  template:
+    metadata:
+      labels:
+        app: antivirus
+    spec:
+      containers:
+        - name: antivirus
+          image: nginx
+  selector:
+    matchLabels:
+      app: antivirus
