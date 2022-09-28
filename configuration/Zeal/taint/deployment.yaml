@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sample-deployment
+spec:
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+        - name: webserver
+          image: nginx
+      tolerations:
+        - key: "key"
+          operator: "Exists"
+          effect: NoSchedule
