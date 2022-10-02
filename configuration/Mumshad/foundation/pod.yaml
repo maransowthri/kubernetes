@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: voting-pod-2
+  labels:
+    app: voting-app
+spec:
+  containers:
+    - name: webserver
+      image: nginx
