@@ -35,3 +35,9 @@ kubectl create secret generic secondsecret --from-file=./credentials.txt
 ```bash
 kubectl create configmap dev --from-literal app.mem=2048m
 ```
+
+## Create namespace
+
+```bash
+kubectl create namespace dev
+```

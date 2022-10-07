@@ -21,8 +21,28 @@ kubectl get secret firstsecret -o yaml
 echo <encoded_secret> | base64 -d
 ```
 
-## Get pods with IPs
+## Get pods with IPs and node names
 
 ```bash
 kubectl get pods -o wide
+```
+
+## Get pods in a different name space
+
+```bash
+kubectl get pods --namespace dev
+
+(Or)
+
+kubectl get pods -n dev
+```
+
+## Listing pods in all namespaces
+
+```bash
+kubectl get pods --all-namespaces
+
+(Or)
+
+kubectl get pods -A
 ```
