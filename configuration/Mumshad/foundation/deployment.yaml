@@ -1,18 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: webserver
+  name: webserver-deployment
+  labels:
+    name: webserver-deployment
 spec:
-  replicas: 3
+  replicas: 2
+  selector:
+    matchLabels:
+      tier: backend
+  strategy: 
+    type: Recreate
   template:
     metadata:
-      name: webserver
+      name: webserver-pod
       labels:
-        tier: frontend
+        tier: backend
     spec:
       containers:
         - name: nginx
           image: nginx
-  selector:
-    matchLabels:
-      tier: frontend
