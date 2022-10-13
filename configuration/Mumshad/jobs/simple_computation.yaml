@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: compute
+spec:
+  completions: 3
+  parallelism: 3
+  template:
+    metadata:
+      name: compute-pod
+    spec:
+      containers:
+        - name: random-error
+          image: kodekloud/random-error
+      restartPolicy: Never
