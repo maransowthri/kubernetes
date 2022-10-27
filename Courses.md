@@ -1,6 +1,6 @@
 # Resources
 
-[https://athenahealth.udemy.com/course/certified-kubernetes-application-developer/learn/](https://athenahealth.udemy.com/course/certified-kubernetes-application-developer/learn/)
+[https://udemy.com/course/certified-kubernetes-application-developer/learn/](https://udemy.com/course/certified-kubernetes-application-developer/learn/)
 
 [https://github.com/dgkanatsios/CKAD-exercises](https://github.com/dgkanatsios/CKAD-exercises)
 

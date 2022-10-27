@@ -9,10 +9,7 @@ spec:
       command: ["/bin/sh", "-c"]
       args: ["shuf -i 0-100 -n 1 >> /opt/number.out;"]
       volumeMounts:
-        - mountPath: /opt
+        - mountPath: /opt/data
           name: data-volume
   volumes:
     - name: data-volume
-      hostPath:
-        path: /data
-        type: Directory
